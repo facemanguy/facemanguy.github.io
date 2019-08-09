@@ -37,25 +37,14 @@ nav{
     font-size: 2rem;
 }
 
-.skillsSection1{
-    grid-area: skills1;
-    background-color: chartreuse;
-    padding: 1rem 2rem 1rem 3rem;
+.skills-section{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.skillsSection2{
-    grid-area: skills2;
-    background-color: orange;
-    padding: 1rem 2rem 1rem 3rem;
-}
-
-.skillsSection3{
-    grid-area: skills3;
-    background-color: cornflowerblue;
-    padding: 1rem 2rem 1rem 3rem;
-}
-
-.aboutSection{
+.about-section{
     grid-area: about;
     background-color: deeppink;
     padding: 1rem 2rem 1rem 3rem;
@@ -63,6 +52,7 @@ nav{
 
 .mePic{
     background-color: gold;
+    margin: 0;
 }
 
 .mePic img{
@@ -73,7 +63,8 @@ nav{
 }
 
 .promoSection{
-    grid-area: projects;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: maroon;
 }
 
@@ -86,28 +77,18 @@ nav{
     padding: 2rem;
 }
 
-.project1{
+.project{
+    text-align: center;
     background-color: aquamarine;
 }
 
-.project2{
-    background-color: violet;
-}
-
-.project3{
-    background-color: red;
-}
-
-.project4{
-    background-color: yellowgreen;
-}
 
 ul{
     list-style: none;
     display: block;
 }
 
-.aboutSection li{
+.about-section li{
     border: inset black 2px;
     margin: 0.4rem;
     padding: 0.4rem;
@@ -115,6 +96,6 @@ ul{
     display: inline-block;
 }
 
-.aboutSection h3{
+.about-section h3{
     padding-left: 3rem;
 }
