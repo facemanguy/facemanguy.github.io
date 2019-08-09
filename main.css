@@ -73,8 +73,6 @@ a:hover{
     margin: 0;
     padding: 1rem;
     list-style-type: none;
-    background: rgb(239,240,223);
-    background: radial-gradient(circle, rgba(239,240,223,0.4418942577030813) 0%, rgba(40,38,38,0) 58%);
 }
 
 
@@ -106,6 +104,11 @@ a:hover{
     background: rgb(240,181,51);
     background: radial-gradient(circle, rgba(233,208,6,0.26) 0%, rgba(0,0,0,0) 100%);
     padding: 3rem;
+}
+
+.project img{
+    max-width: 100%;
+    height: auto;
 }
 
 .about-section{
